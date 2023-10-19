@@ -1,0 +1,19 @@
+.footer {
+  background-color: #333;
+  height: 5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.social {
+  display: flex;
+  padding-top: 0.2rem;
+  gap: 1rem;
+}
+
+.copyright {
+  color: #fff;
+}

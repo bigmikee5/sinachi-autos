@@ -1,0 +1,49 @@
+.intro {
+  text-align: center;
+  padding: 4rem 0 2rem 0;
+  color: #fff;
+}
+
+.car {
+  background-image: url("../assets/bg.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.car-container {
+  max-width: 1140px;
+  margin: auto;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 40px;
+  padding-bottom: 5rem;
+}
+
+.car-card {
+  background-color: #1a1919;
+  padding: 1.2rem 1rem;
+}
+
+.car-card img {
+  width: 100%;
+}
+
+.car-card h2,
+.price {
+  color: #fff;
+}
+
+.btn {
+  margin-top: 0.5rem;
+  padding: 8px 5px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 740px) {
+  .car-container {
+    width: 90%;
+    margin: auto;
+    grid-template-columns: 1fr;
+  }
+}
